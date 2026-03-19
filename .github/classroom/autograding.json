@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "PHPUnit Validation Tests",
+      "setup": "composer install",
+      "run": "vendor/bin/phpunit tests/HostelAllocatorTest.php",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}

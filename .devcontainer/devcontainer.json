@@ -1,0 +1,17 @@
+{
+    "name": "PHP 8.2",
+    "image": "mcr.microsoft.com/devcontainers/php:8.2",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "zobo.php-intellisense",
+                "emallin.phpunit"
+            ]
+        }
+    },
+    "postCreateCommand": "composer install"
+}
